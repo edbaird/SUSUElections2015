@@ -20,6 +20,7 @@
     "bootstrap": "",
     "less": "",
     "jquery": "git://github.com/components/jquery.git#=2.1.0",
-    "underscore": ""
+    "underscore": "",
+    "angular":""
   }
 }
