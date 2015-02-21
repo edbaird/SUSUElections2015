@@ -1,17 +1,91 @@
 {
 	"pages": [
 		{ 	
-			"title":"VP Shit",
+			"title":"President",
 			"candidates":[
 				{ 
-					"name": "Hanna Crap",
-					"id": 298392382398,
-				},
-				{ 
-					"name": "Hanna Boop",
-					"id": 2983982,
+					"name": "Ben Franklin",
+					"id": 617967421669427
 				}
 			]
-		}
+		},
+		{ 	
+			"title":"VP Democracy & Creative Industries",
+			"candidates":[
+				{ 
+					"name": "Kerry Sclater",
+					"id": 601356399998994
+				}
+			]
+		},
+		{ 	
+			"title":"VP Education",
+			"candidates":[
+				{ 
+					"name": "Shruti Verma",
+					"id": 401652856676058
+				}
+			]
+		},
+		{ 	
+			"title":"VP Engagement",
+			"candidates":[
+				{ 
+					"name": "Hannah Talbot",
+					"id": 836455189733373
+				},
+				{ 
+					"name": "Jenny Bortoluzzi",
+					"id": 720789028018366
+				}
+			]
+		},
+		{ 	
+			"title":"VP Communities",
+			"candidates":[
+				{ 
+					"name": "Rebecca Lake",
+					"id": 1554355218182702
+				}
+			]
+		},
+		{ 	
+			"title":"VP Welfare",
+			"candidates":[
+				{ 
+					"name": "Eva Pemberton",
+					"id": 1540418512875888
+				},
+				{ 
+					"name": "Samuel Bailey",
+					"id": 694004094054413
+				}
+				{ 
+					"name": "Chibeza Mumbi",
+					"id": 1609068609328119
+				},
+			]
+		},
+		{ 	
+			"title":"VP Sports Development",
+			"candidates":[
+				{ 
+					"name": "Ashley Sivarajah",
+					"id": 732313286874609
+				},
+				{ 
+					"name": "Jamie Wilson",
+					"id": 317731461756821
+				}
+				{ 
+					"name": "Stephen Barratt",
+					"id": 1557119017878523
+				},
+				{ 
+					"name": "Roman Martin",
+					"id": 838289606207223
+				},
+			]
+		},
 	]
 }
