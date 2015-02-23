@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body {
+	font-family: 'Open Sans', sans-sefif;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+}
+
+p { 
+	font-family: 'Open Sans', sans-sefif;
+	font-weight: 400;
+	font-size: 16px;
+	display: inline;
+	padding:0px;
+	margin: 0px;
+}
+
+ul {
+	padding:0px;
+	margin: 0px;
+}
+
+li {
+	list-style: none;
+	padding:0px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-sefif;
+	font-weight: 400;
+	font-size: 42px;
+	padding:25px 0px 25px 0px;
+	margin: 0px 0px 0px 0px;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-sefif;
+	font-weight: 300;
+	font-size: 25px;
+	padding:10px 0px 15px 0px;
+	margin: 0px;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-sefif;
+	font-weight: 400;
+	font-size: 60px;
+	padding:25px 0px 25px 0px;
+	margin: 0px 0px 0px 0px;
+	color: #FFFFFF;
+}
+
+
+.contentcontainer {
+	margin: 0px auto;
+	padding: 0px;
+	width: 75%;
+}
+
+.titlebox {
+	width: 100%;
+	background-color: #287DB5;
+}
+
+.cell {
+	padding: 40px 0px 40px 0px;
+	margin: 0px 0px 0px 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.topbanner {
+	width: 100%;
+	background-color: #287DB5;
+	text-align: center;
+	border-bottom: 50px solid #FFFFFF;
+}
+
+.coverphoto {
+	height: 20px;
+	width: 20px;
+	display: block;
+	float: left;
+}

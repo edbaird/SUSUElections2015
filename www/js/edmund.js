@@ -1,4 +1,3 @@
-// beautiful code by ed, max didn't have anything to do with it
 angular.module('susu', [])
 	.controller("elections", function($scope) {
 		var datadfd = $.get('data/pages.json'),

@@ -6,6 +6,10 @@
 				{ 
 					"name": "Ben Franklin",
 					"id": 617967421669427
+				},
+				{
+					"name": "Sebastian Vogelpoel",
+					"id": 1383681841947208
 				}
 			]
 		},
@@ -15,6 +19,10 @@
 				{ 
 					"name": "Kerry Sclater",
 					"id": 601356399998994
+				},
+				{ 
+					"name": "Chris McGeehan",
+					"id": 1567691236811256
 				}
 			]
 		},
@@ -46,6 +54,9 @@
 				{ 
 					"name": "Rebecca Lake",
 					"id": 1554355218182702
+				},
+				{
+					"name": "Anjit Aulakh"
 				}
 			]
 		},
@@ -53,12 +64,12 @@
 			"title":"VP Welfare",
 			"candidates":[
 				{ 
-					"name": "Eva Pemberton",
-					"id": 1540418512875888
-				},
-				{ 
 					"name": "Samuel Bailey",
 					"id": 694004094054413
+				},
+				{ 
+					"name": "Eva Pemberton",
+					"id": 1540418512875888
 				},
 				{ 
 					"name": "Chibeza Mumbi",
@@ -70,20 +81,20 @@
 			"title":"VP Sports Development",
 			"candidates":[
 				{ 
-					"name": "Ashley Sivarajah",
-					"id": 732313286874609
-				},
-				{ 
 					"name": "Jamie Wilson",
 					"id": 317731461756821
 				},
 				{ 
-					"name": "Stephen Barratt",
-					"id": 1557119017878523
+					"name": "Ashley Sivarajah",
+					"id": 732313286874609
 				},
 				{ 
 					"name": "Roman Martin",
 					"id": 838289606207223
+				},
+				{ 
+					"name": "Stephen Barratt",
+					"id": 1557119017878523
 				}
 			]
 		}
