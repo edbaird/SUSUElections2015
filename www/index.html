@@ -7,13 +7,13 @@
         <link href="css/edmund.less" rel="stylesheet/less">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <title>SUSU Election</title>
-        <script src="lib/less/dist/less.js" type="text/javascript"></script>  
+        <script src="lib/less/dist/less.js" type="text/javascript"></script>
         <script src="lib/jquery/jquery.js" type="text/javascript"></script>
         <script src="lib/underscore/underscore.js" type="text/javascript"></script>
         <script src="lib/backbone/backbone.js" type="text/javascript"></script>
         <script src="lib/angular/angular.min.js" type="text/javascript"></script>
         <script src="js/edmund.js" type="text/javascript"></script>
-        <script>
+        <!--<script>
             var fbinit = $.Deferred();
             window.fbAsyncInit = function() {
                 FB.init({
@@ -31,7 +31,7 @@
                 fjs.parentNode.insertBefore(js, fjs);
                 console.log('fb init', window.FB);
             }(document, 'script', 'facebook-jssdk'));
-        </script>    
+        </script>-->
     </head>
     <body ng-app="susu" ng-controller="elections"j>
             <div class="topbanner"><h3>SUSU Elections 2015 by Facebook Likes</h3>
@@ -40,12 +40,12 @@
                     <div class="titlebox"><div class="contentcontainer"><h1>{{ p.title }}</h1></div></div>
                     <div class="contentcontainer">
                     <ul>
-                        <li ng-repeat="c in p.candidates"> 
+                        <li ng-repeat="c in p.candidates">
                             <h2>{{ c.name }}</h2>
                             <!--<div class="coverphoto">
                                 <img ng-src="{{c.pageinfo.cover.source}}">
-                            </div>--> 
-                            <p>{{ c.pageinfo.about }}</p>
+                            </div>-->
+                            <!--<p>{{ c.pageinfo.about }}</p>-->
                             <h4>Likes: {{ c.pageinfo.likes }} </h4>
                         </li>
                     </ul>
