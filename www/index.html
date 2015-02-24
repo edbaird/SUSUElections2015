@@ -34,19 +34,19 @@
         </script>    
     </head>
     <body ng-app="susu" ng-controller="elections"j>
-            <div class="topbanner"><h3><b>SUSU Elections 2015 by Facebook Likes</b></h3>
+            <div class="topbanner"><h3>SUSU Elections 2015 by Facebook Likes</h3>
             </div>
                 <div ng-repeat="p in positions">
                     <div class="titlebox"><div class="contentcontainer"><h1>{{ p.title }}</h1></div></div>
                     <div class="contentcontainer">
                     <ul>
                         <li ng-repeat="c in p.candidates"> 
-                            <h2><b>{{ c.name }}</b></h2>
+                            <h2>{{ c.name }}</h2>
                             <!--<div class="coverphoto">
                                 <img ng-src="{{c.pageinfo.cover.source}}">
                             </div>--> 
                             <p>{{ c.pageinfo.about }}</p>
-                            <h2>Likes: {{ c.pageinfo.likes }} </h2>
+                            <h4>Likes: {{ c.pageinfo.likes }} </h4>
                         </li>
                     </ul>
                     </div>
