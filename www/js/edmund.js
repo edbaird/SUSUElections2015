@@ -7,7 +7,7 @@ angular.module('susu', [])
 			var positions = $scope.positions = data.positions,
 				winners = $scope.winners = {};
 
-			positions.map(function(pos) {
+			_(positions).map(function(pos,pos_idx) {
 				pos.candidates.map(function(person) {
 
 					// Can I use this API in this way? Yolo swag. Adam woz ere lol 2k10.
@@ -15,8 +15,8 @@ angular.module('susu', [])
 						$.getJSON('https://graph.facebook.com/'+person.id+'?fields=likes').then(function(res) {
 							person.pageinfo = res;
 							var likes = person.pageinfo.likes;
-							if (winners[pos.title] === undefined || likes > winners[pos.title].pageinfo.likes) {
-								winners[pos.title] = person;
+							if (winners[pos_idx] === undefined || likes > winners[pos_idx].pageinfo.likes) {
+								winners[pos_idx] = person;
 							}
 							$scope.$apply();
 						});
