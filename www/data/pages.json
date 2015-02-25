@@ -5,11 +5,13 @@
 			"candidates":[
 				{ 
 					"name": "Ben Franklin",
-					"id": 617967421669427
+					"id": 617967421669427,
+					"image": "http://edbaird.com/images/ben-franklin.jpg"
 				},
 				{
 					"name": "Sebastian Vogelpoel",
-					"id": 1383681841947208
+					"id": 1383681841947208,
+					"image": "http://edbaird.com/images/sebastian-vogelpoel.jpg"
 				}
 			]
 		},
@@ -18,11 +20,13 @@
 			"candidates":[
 				{ 
 					"name": "Kerry Sclater",
-					"id": 601356399998994
+					"id": 601356399998994,
+					"image": "http://edbaird.com/images/kerry-sclater.jpg"
 				},
 				{ 
 					"name": "Chris McGeehan",
-					"id": 1567691236811256
+					"id": 1567691236811256,
+					"image": "http://edbaird.com/images/chris-mcgeehan.jpg"
 				}
 			]
 		},
@@ -31,7 +35,8 @@
 			"candidates":[
 				{ 
 					"name": "Shruti Verma",
-					"id": 401652856676058
+					"id": 401652856676058,
+					"image": "http://edbaird.com/images/shruti-verma.jpg"
 				}
 			]
 		},
@@ -40,11 +45,13 @@
 			"candidates":[
 				{ 
 					"name": "Hannah Talbot",
-					"id": 836455189733373
+					"id": 836455189733373,
+					"image": "http://edbaird.com/images/hannah-talbot.jpg"
 				},
 				{ 
 					"name": "Jenny Bortoluzzi",
-					"id": 720789028018366
+					"id": 720789028018366,
+					"image": "http://edbaird.com/images/jenny-bortoluzzi.jpg"
 				}
 			]
 		},
@@ -53,10 +60,12 @@
 			"candidates":[
 				{ 
 					"name": "Rebecca Lake",
-					"id": 1554355218182702
+					"id": 1554355218182702,
+					"image": "http://edbaird.com/images/rebecca-lake.jpg"
 				},
 				{
-					"name": "Anjit Aulakh"
+					"name": "Anjit Aulakh",
+					"image": "http://edbaird.com/images/anjit-aulakh.jpg"
 				}
 			]
 		},
@@ -65,15 +74,18 @@
 			"candidates":[
 				{ 
 					"name": "Samuel Bailey",
-					"id": 694004094054413
+					"id": 694004094054413,
+					"image": "http://edbaird.com/images/sam-bailey.jpg"
 				},
 				{ 
 					"name": "Eva Pemberton",
-					"id": 1540418512875888
+					"id": 1540418512875888,
+					"image": "http://edbaird.com/images/eva-pemberton.jpg"
 				},
 				{ 
 					"name": "Chibeza Mumbi",
-					"id": 1609068609328119
+					"id": 1609068609328119,
+					"image": "http://edbaird.com/images/chibeza-mumbi.jpg"
 				}
 			]
 		},
@@ -82,19 +94,23 @@
 			"candidates":[
 				{ 
 					"name": "Jamie Wilson",
-					"id": 317731461756821
+					"id": 317731461756821,
+					"image": "http://edbaird.com/images/jamie-wilson.jpg"
 				},
 				{ 
 					"name": "Ashley Sivarajah",
-					"id": 732313286874609
+					"id": 732313286874609,
+					"image": "http://edbaird.com/images/ashley-sivarajah.jpg"
 				},
 				{ 
 					"name": "Stephen Barratt",
-					"id": 1557119017878523
+					"id": 1557119017878523,
+					"image": "http://edbaird.com/images/stephen-barratt.jpg"
 				},
 				{ 
 					"name": "Roman Martin",
-					"id": 838289606207223
+					"id": 838289606207223,
+					"image": "http://edbaird.com/images/roman-martin.jpg"
 				}
 			]
 		}
