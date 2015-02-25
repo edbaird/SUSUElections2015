@@ -93,3 +93,13 @@ h4 {
 	display: block;
 	float: left;
 }
+
+.winners {
+	background-color:pink;
+	padding:10px 40px;
+	text-align:center;
+	width:100%;
+}
+.winners img {
+	width:14%;
+}

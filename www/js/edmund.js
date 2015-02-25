@@ -1,8 +1,12 @@
+/*jshint undef: true, strict:false, trailing:false, unused:false */
+
 angular.module('susu', [])
 	.controller("elections", function($scope) {
 		var datadfd = $.get('data/pages.json');
 		$.when(datadfd).then(function(data) {
-			var positions = $scope.positions = data.positions;
+			var positions = $scope.positions = data.positions,
+				winners = $scope.winners = {};
+
 			positions.map(function(pos) {
 				pos.candidates.map(function(person) {
 
@@ -10,6 +14,10 @@ angular.module('susu', [])
 					if (person.id) {
 						$.getJSON('https://graph.facebook.com/'+person.id+'?fields=likes').then(function(res) {
 							person.pageinfo = res;
+							var likes = person.pageinfo.likes;
+							if (winners[pos.title] === undefined || likes > winners[pos.title].pageinfo.likes) {
+								winners[pos.title] = person;
+							}
 							$scope.$apply();
 						});
 					}
@@ -38,4 +46,5 @@ angular.module('susu', [])
 			}); */
 		}).fail(function(err) { console.log('error ', err); });
 		s = $scope;
+		console.log('hi');
 	});
