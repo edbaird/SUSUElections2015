@@ -95,7 +95,7 @@ h4 {
 }
 
 .winners {
-	background-color:pink;
+	background-color: #565656;
 	padding:10px 40px;
 	text-align:center;
 	width:100%;
@@ -108,5 +108,5 @@ li {
 	padding:5px 10px;
 }
 li.winning {
-	border:5px solid #287DB5;
+	background-color: #ebedf1;
 }

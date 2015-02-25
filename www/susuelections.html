@@ -44,7 +44,7 @@
     <body ng-app="susu" ng-controller="elections"j>
             <div class="topbanner"><h3>SUSU Elections 2015 by Facebook Likes</h3></div>
                 <div class="winners">
-                    <img ng-src="{{c.image}}" ng-repeat="c in winners">
+                    <a ng-repeat="c in winners" target="_blank" ng-href="http://www.facebook.com/{{c.id}}"><img ng-src="{{c.image}}"></a>
                 </div>
                 <div ng-repeat="p in positions">
                     <div class="titlebox"><div class="contentcontainer"><h1>{{ p.title }}</h1></div></div>
