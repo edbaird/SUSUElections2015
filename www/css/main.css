@@ -100,13 +100,35 @@ h4 {
 	text-align:center;
 	width:100%;
 }
-.winners img {
-	width:14%;
-}
 li {
 	margin:5px 5px;
-	padding:5px 10px;
+	padding:5px 10px 5px 175px;
+	position:relative;
 }
 li.winning {
 	background-color: #ebedf1;
+}
+.winners .person {
+	position:relative;
+	display:inline-block;
+	width:14%;
+}
+.winners .person .name {
+	position:absolute;
+	bottom:-5px;
+	background-color:pink;
+	font-size:12pt;
+	color:white;
+	width:100%;
+	background-color:#565656;
+	padding:1px 0px;
+}
+.winners .person img {
+	width:100%;
+}
+.candidate img {
+	position:absolute;
+	width:150px;
+	left:5px;
+	top:5px;
 }

@@ -44,13 +44,19 @@
     <body ng-app="susu" ng-controller="elections"j>
             <div class="topbanner"><h3>SUSU Elections 2015 by Facebook Likes</h3></div>
                 <div class="winners">
-                    <a ng-repeat="c in winners" target="_blank" ng-href="http://www.facebook.com/{{c.id}}"><img ng-src="{{c.image}}"></a>
+                    <a ng-repeat="c in winners" target="_blank" ng-href="http://www.facebook.com/{{c.id}}">
+                        <div class="person">
+                            <img ng-src="{{c.image}}">
+                            <div class="name">{{c.name}}</div>
+                        </div>
+                    </a>
                 </div>
                 <div ng-repeat="p in positions">
                     <div class="titlebox"><div class="contentcontainer"><h1>{{ p.title }}</h1></div></div>
                     <div class="contentcontainer">
                     <ul>
-                        <li ng-if="c.id" ng-repeat="c in p.candidates | orderBy:pred:true" ng-class="{winning:_(winners).values().indexOf(c) >= 0}">
+                        <li class="candidate" ng-if="c.id" ng-repeat="c in p.candidates | orderBy:pred:true" ng-class="{winning:_(winners).values().indexOf(c) >= 0}">
+                            <img ng-src="{{c.image}}" class='name'>
                             <a target="_blank" ng-href="http://www.facebook.com/{{c.id}}"><h2>{{ c.name }}</h2></a>
                             <!--<div class="coverphoto">
                                 <img ng-src="{{c.pageinfo.cover.source}}">
