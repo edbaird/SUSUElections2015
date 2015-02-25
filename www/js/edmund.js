@@ -6,6 +6,8 @@ angular.module('susu', [])
 		$.when(datadfd).then(function(data) {
 			var positions = $scope.positions = data.positions,
 				winners = $scope.winners = {};
+			$scope.pred = 'pageinfo.likes';
+			$scope._ = _;
 
 			_(positions).map(function(pos,pos_idx) {
 				pos.candidates.map(function(person) {
@@ -46,5 +48,4 @@ angular.module('susu', [])
 			}); */
 		}).fail(function(err) { console.log('error ', err); });
 		s = $scope;
-		console.log('hi');
 	});

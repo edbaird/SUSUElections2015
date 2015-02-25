@@ -50,7 +50,7 @@
                     <div class="titlebox"><div class="contentcontainer"><h1>{{ p.title }}</h1></div></div>
                     <div class="contentcontainer">
                     <ul>
-                        <li ng-repeat="c in p.candidates">
+                        <li ng-if="c.id" ng-repeat="c in p.candidates | orderBy:pred:true" ng-class="{winning:_(winners).values().indexOf(c) >= 0}">
                             <a target="_blank" ng-href="http://www.facebook.com/{{c.id}}"><h2>{{ c.name }}</h2></a>
                             <!--<div class="coverphoto">
                                 <img ng-src="{{c.pageinfo.cover.source}}">
